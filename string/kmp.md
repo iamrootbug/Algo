@@ -12,7 +12,7 @@ vector<int> getPi(string p){
 	for(int i=1; i<m; i++){
 		if(p[i] == p[j]) pi[i] = ++j;
 		else if(j>0){
-			j = pi[j-1]; --j;
+			j = pi[j-1]; --i;
 		}
 	}
 }
