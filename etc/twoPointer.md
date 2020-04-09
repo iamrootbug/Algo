@@ -1,6 +1,6 @@
 두 개의 포인터를 이용하여 O(N)시간에 배열을 탐색하는 알고리즘
 
-예제. '#'가 백스페이스 문자일 때 문자열 s, t가 동일한 문자열인지 판단하라.
+예제. '#'가 백스페이스 문자일 때 문자열 s, t가 동일한 문자열인지 판단하라.  
 https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3291/
 
 
