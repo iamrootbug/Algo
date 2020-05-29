@@ -7,7 +7,7 @@ fen2[i] = arr[i]부터 LSB(i)개 원소의 최소값
 ![Fenwick1_BIT1](https://user-images.githubusercontent.com/62944263/80810874-b6527500-8bff-11ea-86e6-09b3f97f48d8.jpeg)
 
 ### Fenwick_2
-![Fenwick2_BIT2](https://user-images.githubusercontent.com/62944263/80810879-b94d6580-8bff-11ea-9e13-231dbde97d66.jpeg)
+![Fenwick2_BIT2](https://user-images.githubusercontent.com/62944263/83249544-b1261d00-a1e1-11ea-9567-5cb5214ca0ea.png)
 ## 코드
 각 구간의 최소값을 저장하는 펜윅트리 코드
 ```cpp
