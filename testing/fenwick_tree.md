@@ -13,7 +13,7 @@ fen2[i] = arr[i]부터 LSB(i)개 원소의 최소값
 ```cpp
 int N;
 int arr[N+1]; // 인덱스 1부터 사용
-vector<int> fen1(N+1, 1e9); //arr[i]까지 LSB(i)개 원소의 최소값 
+vector<int> fen1(N+1, 1e9); // arr[i]까지 LSB(i)개 원소의 최소값 
 vector<int> fen2(N+1, 1e9); // arr[i]부터 LSB(i)개 원소의 최소값
 
 auto update = [&](int ix){
@@ -51,7 +51,7 @@ auto query = [&](int a, int b){
 ```cpp
 int N;
 int arr[N+1];
-vector<int> fen(N, 0);
+vector<int> fen(N+1, 0);
 
 auto update = [&](int ix, int diff){
   for(int i=ix; i<=N; i+=(i&-i)){
